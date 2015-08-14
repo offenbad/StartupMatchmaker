@@ -4,59 +4,92 @@ html {
 .block {
 	max-width: 60rem;
 	margin: 0 auto;
+	padding: 2rem 3rem;
 }
 .header {
 	background-color: black;
 }
 .header__logo {
 	color: yellow;
+	font-family: serif;
+	font-size: 3rem;
 }
 .header__nav {
 	color: white;
+	font-family: sans-serif;
+	font-size: 1.2rem;
+	text-align: right;
 }
 .subheader {
-	background-color: gray;
+	background-color: #A9A9A9;
 	color: black;
+	font-family: serif;
 	font-style: italic;
+	font-size: 2rem;
+	text-align: center;
+}
+.subheader__text__taste {
+	color: #545454;
+	text-decoration: line-through
+}
+.subheader__text__are {
+	border-bottom: 2px solid yellow;
 }
 .image {
 	background-image: url(../assets/coworking.jpg);
 }
 .image__box {
-	opacity: 50%;
+	background-color: white;
+	opacity: 0.75;
 	display: inline-block;
+	font-family: sans-serif;
+	padding: 3rem 2rem;
+	max-width: 30%;
 }
 .image__box__heading {
-	
+	font-size: 2rem;
 }
 .image__box__paragraph {
-
+	font-size: 1.5rem;
 }
-.button{
-
+.button {
+	font-family: sans-serif;
+	text-align: center;
+	padding: 1rem 2rem;
+	margin: 1rem;
+	display: inline-block;
 }
 .image__box__button {
 	background-color: yellow;
-	display: inline-block;
+	
 }
 .columns {
 	background-color: white;
 }
 .col {
-
+	font-family: serif;	
+	padding: 2rem;
+	max-width: 33%;
 }
 .col__heading {
-
+	font-size: 2rem;
+	font: serif;
 }
 .col__paragraph {
-
+	font-size: 1.5rem;
+	font: sans-serif;
 }
 .col__button {
+	background-color: gray;
+}
+.col--border {
 
 }
 .footer {
  background-color: black;
 }
-.footer-text {
+.footer__text {
 	color: white;
+	font-size: .8rem;
+	font-family: sans-serif;
 }
