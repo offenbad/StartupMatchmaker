@@ -1,0 +1,62 @@
+html {
+	font-size: 10px;
+}
+.block {
+	max-width: 60rem;
+	margin: 0 auto;
+}
+.header {
+	background-color: black;
+}
+.header__logo {
+	color: yellow;
+}
+.header__nav {
+	color: white;
+}
+.subheader {
+	background-color: gray;
+	color: black;
+	font-style: italic;
+}
+.image {
+	background-image: url(../assets/coworking.jpg);
+}
+.image__box {
+	opacity: 50%;
+	display: inline-block;
+}
+.image__box__heading {
+	
+}
+.image__box__paragraph {
+
+}
+.button{
+
+}
+.image__box__button {
+	background-color: yellow;
+	display: inline-block;
+}
+.columns {
+	background-color: white;
+}
+.col {
+
+}
+.col__heading {
+
+}
+.col__paragraph {
+
+}
+.col__button {
+
+}
+.footer {
+ background-color: black;
+}
+.footer-text {
+	color: white;
+}
