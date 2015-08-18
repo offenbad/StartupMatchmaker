@@ -7,37 +7,43 @@ html {
 }
 .header {
 	background-color: black;
-	padding: .5rem 0rem 2rem 0rem;
-	border-bottom: .2rem solid yellow;
+	padding: .1rem 0rem 1.8rem 0rem;
+	border-bottom: .4rem solid yellow;
 }
 .header__logo {
 	color: yellow;
 	font-family: 'Lora', serif;
+	font-weight: 700;
 	font-size: 3.5rem;
 }
 .header__nav {
 	color: white;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.2rem;
 	text-align: right;
 }
 .header__nav__link {
-	padding: .75rem;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2rem;
+	padding: .5rem;
 }
-.big {
+.header__nav__link--big {
 	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 2.2rem;
 }
 .subheader {
-	background-color: #A9A9A9;
+	background-color: #d4d3d4;
+	padding: 2rem;
+}
+.subheader__text {
 	color: black;
 	font-family: 'Lora', serif;
+	font-weight: 700;
 	font-style: italic;
-	font-size: 1.8rem;
+	font-size: 2.8rem;
 	text-align: center;
-	padding: 1rem;
 }
 .subheader__text__taste {
-	color: #545454;
+	color: #aaa8aa;
 	text-decoration: line-through
 }
 .subheader__text__are {
@@ -50,37 +56,38 @@ html {
 	box-sizing: border-box;
 }
 .image__box {
-	background-color: white;
-	opacity: 0.75;
 	display: inline-block;
-	font-family: 'Open Sans', sans-serif;
-	padding: 2.2rem 2rem 2.1rem 2rem;
-	max-width: 30%;
-	box-shadow: 2px 2px 5px #888888;
+	padding: 2rem 2.2rem 2.5rem 2.2rem;
+	max-width: 35%;
 	float: right;
-  	
+}
+.image__box__background {
+	background-color: white;
+	opacity: 0.85;
+	box-shadow: 2px 2px 5px #6a696a;
 }
 .image__box__heading {
-	font-size: 2rem;
+	font-size: 3rem;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 }
 .image__box__paragraph {
-	font-size: 1.5rem;
+	font-size: 2rem;
+	font-family: 'Open Sans', sans-serif;
 }
 .button {
 	font-family: 'Oswald', sans-serif;
-	font-size: 1.5rem;
+	font-size: 2.2rem;
+	font-weight: 700;
 	text-align: center;
-	padding: 1rem .5rem 1rem .5rem;
+	padding: 1rem .3rem 1rem .3rem;
 	width: 90%;
 	border-radius: .4rem;
-	display: inline-block;
-	box-shadow: 2px 2px 5px #888888;
+	display: inline-block;	
 }
 .image__box__button {
 	background-color: yellow;
-	
+	box-shadow: 2px 2px 5px #e5e500;
 }
 .columns {
 	background-color: white;
@@ -88,35 +95,36 @@ html {
 	width: 100%;
 }
 .col {
-	font-family: 'Lora', serif;	
-	padding: 2rem;
+	padding: 1.5rem 1.8rem 2.2rem 1.8rem;
 	width: 33%;
 	box-sizing: border-box;
 	float: left;
 }
 .col__heading {
-	font-size: 2rem;
-	font: serif;
+	font-size: 2.8rem;
+	font-family: 'Lora', serif;
+	font-weight: 700;
 }
 .col__paragraph {
-	font-size: 1.5rem;
+	font-size: 2.1rem;
 	font-family: 'Open Sans', sans-serif;
 }
 .col__button {
-	background-color: #A9A9A9;
+	background-color: #dcdbdc;
+	box-shadow: 2px 2px 5px #6a696a;
 }
 .col--border {
-	border-right: 2px solid #A9A9A9;
+	border-right: 2px solid #d4d3d4;
 }
 .footer {
  	background-color: black;
 }
 .footer__text {
 	color: white;
-	font-size: 1.2rem;
+	font-size: 2rem;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	padding: 1rem;
+	padding: 1.5rem;
 }
 /* clearfix class */
 .clearfix:after {
