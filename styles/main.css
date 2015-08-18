@@ -45,6 +45,7 @@ html {
 }
 .image {
 	background-image: url(../assets/coworking.jpg);
+	background-size: cover;
 	padding: 2rem;
 	box-sizing: border-box;
 }
@@ -53,9 +54,10 @@ html {
 	opacity: 0.75;
 	display: inline-block;
 	font-family: 'Open Sans', sans-serif;
-	padding: 2.5rem 2rem;
+	padding: 2.2rem 2rem 2.1rem 2rem;
 	max-width: 30%;
 	box-shadow: 2px 2px 5px #888888;
+	float: right;
   	
 }
 .image__box__heading {
@@ -70,9 +72,9 @@ html {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.5rem;
 	text-align: center;
-	padding: 1rem 2rem;
-	margin: 1rem;
-	border-radius: .3rem;
+	padding: 1rem .5rem 1rem .5rem;
+	width: 90%;
+	border-radius: .4rem;
 	display: inline-block;
 	box-shadow: 2px 2px 5px #888888;
 }
@@ -83,11 +85,14 @@ html {
 .columns {
 	background-color: white;
 	box-sizing: border-box;
+	width: 100%;
 }
 .col {
 	font-family: 'Lora', serif;	
 	padding: 2rem;
-	max-width: 33%;
+	width: 33%;
+	box-sizing: border-box;
+	float: left;
 }
 .col__heading {
 	font-size: 2rem;
@@ -113,3 +118,17 @@ html {
 	font-weight: 400;
 	padding: 1rem;
 }
+/* clearfix class */
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
