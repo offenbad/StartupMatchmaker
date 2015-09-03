@@ -62,8 +62,7 @@ html {
 	float: right;
 }
 .image__box__background {
-	background-color: white;
-	opacity: 0.85;
+	background-color:rgba(255,255,255,0.7);
 	box-shadow: 2px 2px 5px #6a696a;
 }
 .image__box__heading {
